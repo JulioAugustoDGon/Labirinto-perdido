@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    
+    
+<meta charset="utf-8" />
+</head>
+<body>
+<main>
+<div class="passo ativo" id="passo-0">
+<img src="Logo.jpeg">
+  <p> A história começa com Alex entrando no labirinto, mais a frente no labirinto Alex encontra uma bifurcação </p>
+  
+<button class="proxima" data-proximo="1"/> Seguir pela esquerda, onde há um leve brilho vindo do fundo do túnel.
+ 
+<button class="proxima" data-proximo="2"/> Seguir pela direita, onde o ar é mais fresco e há um cheiro de vegetação.
+
+<button class="proxima" data-proximo="3"/>Seguir em frente, onde o túnel é escuro e sem sinais de luz.
+</div>
+  <!--Ecolha 1 !-->
+  <div class="passo" id="passo-1">
+  <p> Alex encontra uma câmara cheia de espelhos que refletem versões distorcidas dele mesmo. Aqui, ele pode tentar quebrar um espelho. </p>
+  
+<button class="proxima" data-proximo="4"/> Quebrar o espelho.
+ 
+<button class="proxima" data-proximo="5"/> Seguir em frente.
+</div>
+  
+    <!--Ecolha 2 !-->
+  <div class="passo" id="passo-2">
+  <p>Ele libera um espírito que oferece uma revelação sobre o labirinto.</p>
+  
+<button class="proxima" data-proximo="6"/> Guiá-lo a um tesouro
+ 
+<button class="proxima" data-proximo="7"/> Libertá-lo da maldição do labirinto</div>
+  
+      <!--Ecolha 3 !-->
+  <div class="passo" id="passo-3">
+  <p>Alex encontra o tesouro, mas é amaldiçoado.</p>
+  
+<button class="proxima" data-proximo="8"/> Fugir com o tesouro
+     
+</div>
+  
+        <!--Ecolha 4 !-->
+  <div class="passo" id="passo-4">
+  <p>Alex foge com o tesouro, mas sua vida é assombrada pela maldição.</p>
+<img src="Perdeu.jpeg" class="vp"/>
+<button class="proxima" data-proximo="0"/>Reiniciar.
+</div>
+
+  <!--Ecolha 5 !-->
+  <div class="passo" id="passo-5">
+  <p> Alex encontra uma porta de pedra. </p>
+  
+<button class="proxima" data-proximo="30"/> Tentar abrir a porta
+ 
+</div>
+  <!--Ecolha 6 !-->
+  <div class="passo" id="passo-6">
+  <p> Alex encontra uma porta de pedra. </p>
+  
+<button class="proxima" data-proximo="31"/> Você é fraco e volta para sala anterior para procurar a chave
+</div>
+  <!--Ecolha 7 !-->
+  <div class="passo" id="passo-7">
+  <p> Alex encontra uma câmara cheia de espelhos que refletem versões distorcidas dele mesmo. Aqui, ele pode tentar quebrar um espelho. </p>
+  
+<button class="proxima" data-proximo="4"/> Quebrar o espelho.
+ 
+<button class="proxima" data-proximo="5"/> Seguir em frente.
+</div>
+  
+  </main>
+  <footer>Página criada por <a href="https://github.com/JulhoAgosto" target="_blank">Julio Augusto</a></footer>
+<script src="sketch.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+/* font-family: "New Amsterdam", sans-serif;*/
+
+html, body {
+ font-family: "Playfair Display", cursive;
+  font-size: 25px;
+  background: gray;
+  background-image: url("Fundo1.jpeg");
+  background-size: cover;
+  background-position: CENTER;
+  background-attachment: fixed;
+  
+  color: white;
+}  
+
+button{
+font-family: "Source Code Pro", monospace;
+  background-color: darkgray;
+ border: solid 2px darkgray;
+  border-radius: 200px;
+  font-size: 13px;
+}
+
+footer{
+font-family: "Homemade Apple", cursive;
+background-color: rgba(187,187,187,1);
+text-align: CENTER; 
+color: black;
+}
+
+.passo{
+  display: none;
+}
+
+.passo.ativo{
+  display: block;
+}
+
+img{
+  width: 250px;
+}
+
+main{
+  color: black;
+  font-size: 25px;
+  background-color: rgba(187,187,187,0.3);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+a:hover{
+
+    animation: rgbgay 3s infinite;
+}
+
+@keyframes rgbgay {
+    11%{
+        color: gray;
+    }
+    22% {
+        color: red;
+    }
+    33% {
+        color: orange;
+    }
+    44%{
+        color: yellow;
+    }
+    55%{
+        color: rgb(11, 224, 11);
+    }
+    66%{
+        color: rgb(25, 136, 255);
+    }
+    77%{
+        color: rgb(9, 91, 177);
+    }
+    88%{
+        color: rgb(170, 0, 170);
+    }
+    100%{
+        color: black;
+    }
+}
