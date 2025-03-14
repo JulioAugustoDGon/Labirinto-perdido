@@ -2,11 +2,14 @@
   margin: 0px;
   padding: 0px;
 }
+img{
+  width: 250px;
+  margin-bottom:50px;
+  margin-top: 20px;
+  text-align: CENTER;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
-/* font-family: "New Amsterdam", sans-serif;*/
-
-html, body {
+body {
  font-family: "Playfair Display", cursive;
   font-size: 25px;
   background: gray;
@@ -14,21 +17,37 @@ html, body {
   background-size: cover;
   background-position: CENTER;
   background-attachment: fixed;
-  
   color: white;
 }  
 
+main{
+  color: white;
+  font-size: 25px;
+  background-color: rgba(0,0,0,0.4);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 546px;
+}
+
 button{
 font-family: "Source Code Pro", monospace;
-  background-color: darkgray;
- border: solid 2px darkgray;
-  border-radius: 200px;
-  font-size: 13px;
+  background-color: white;
+ border: solid 2px black;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-bottom:10px;
+  margin-top:10px;
+}
+
+button:hover{
+  background-color:rgb(53,114,221)
 }
 
 footer{
 font-family: "Homemade Apple", cursive;
-background-color: rgba(187,187,187,1);
+background-color: rgb(0,109,138);
 text-align: CENTER; 
 color: black;
 }
@@ -41,20 +60,15 @@ color: black;
   display: block;
 }
 
-img{
-  width: 250px;
+
+footer > a:link {
+  color: white;
+  text-decoration: none;
 }
 
-main{
-  color: black;
-  font-size: 25px;
-  background-color: rgba(187,187,187,0.3);
-  text-align: center;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+footer > a:visited {
+  color: #FFFFFF;
 }
-
 a:hover{
 
     animation: rgbgay 3s infinite;
