@@ -26,70 +26,195 @@
 </head>
 <body>
 <main>
-<div class="passo ativo" id="passo-0">
 <img src="Logo.jpeg">
+<div class="passo ativo" id="passo-0">
   <p> A história começa com Alex entrando no labirinto, mais a frente no labirinto Alex encontra uma bifurcação </p>
   
 <button class="proxima" data-proximo="1"/> Seguir pela esquerda, onde há um leve brilho vindo do fundo do túnel.
  
-<button class="proxima" data-proximo="2"/> Seguir pela direita, onde o ar é mais fresco e há um cheiro de vegetação.
+<button class="proxima" data-proximo="9"/> Seguir pela direita, onde o ar é mais fresco e há um cheiro de vegetação.
 
-<button class="proxima" data-proximo="3"/>Seguir em frente, onde o túnel é escuro e sem sinais de luz.
+<button class="proxima" data-proximo="17"/>Seguir em frente, onde o túnel é escuro e sem sinais de luz.
 </div>
-  <!--Ecolha 1 !-->
+  
   <div class="passo" id="passo-1">
-  <p> Alex encontra uma câmara cheia de espelhos que refletem versões distorcidas dele mesmo. Aqui, ele pode tentar quebrar um espelho. </p>
+  <p> Alex encontra uma câmara cheia de espelhos que refletem versões distorcidas dele mesmo. </p>
   
-<button class="proxima" data-proximo="4"/> Quebrar o espelho.
+<button class="proxima" data-proximo="2"/> Quebrar o espelho.
  
-<button class="proxima" data-proximo="5"/> Seguir em frente.
-</div>
-  
-    <!--Ecolha 2 !-->
-  <div class="passo" id="passo-2">
-  <p>Ele libera um espírito que oferece uma revelação sobre o labirinto.</p>
-  
-<button class="proxima" data-proximo="6"/> Guiá-lo a um tesouro
- 
-<button class="proxima" data-proximo="7"/> Libertá-lo da maldição do labirinto</div>
-  
-      <!--Ecolha 3 !-->
-  <div class="passo" id="passo-3">
-  <p>Alex encontra o tesouro, mas é amaldiçoado.</p>
-  
-<button class="proxima" data-proximo="8"/> Fugir com o tesouro
-     
-</div>
-  
-        <!--Ecolha 4 !-->
-  <div class="passo" id="passo-4">
-  <p>Alex foge com o tesouro, mas sua vida é assombrada pela maldição.</p>
-<img src="Perdeu.jpeg" class="vp"/>
-<button class="proxima" data-proximo="0"/>Reiniciar.
+<button class="proxima" data-proximo="3"/> Seguir em frente.
 </div>
 
-  <!--Ecolha 5 !-->
+  <div class="passo" id="passo-2">
+  <p> Ele libera um espírito que oferece uma revelação sobre o labirinto. </p>
+  
+<button class="proxima" data-proximo="4"/> O espírito oferece guiá-lo a um tesouro
+ 
+<button class="proxima" data-proximo="5"/> Ou libertá-lo da maldição do labirinto
+</div>
+
+  <div class="passo" id="passo-3">
+  <p> Alex encontra uma porta de pedra </p>
+  
+<button class="proxima" data-proximo="1"/> A porta é muito grande e você retorna a sala anterior.
+ </div>
+
+  <div class="passo" id="passo-4">
+  <p> Alex encontra o tesouro, mas é amaldiçoado. </p>
+  
+<button class="proxima" data-proximo="7"/> Fugir com o tesouro.
+</div>
+
   <div class="passo" id="passo-5">
-  <p> Alex encontra uma porta de pedra. </p>
+  <p> Alex encontra uma saída secreta que o leva de volta à entrada do labirinto. </p>
   
-<button class="proxima" data-proximo="30"/> Tentar abrir a porta
+<button class="proxima" data-proximo="8"/> Sair em segurança do labirinto
  
+<button class="proxima" data-proximo="0"/> Reentrar no labirinto e explorar outros caminhos
 </div>
-  <!--Ecolha 6 !-->
-  <div class="passo" id="passo-6">
-  <p> Alex encontra uma porta de pedra. </p>
-  
-<button class="proxima" data-proximo="31"/> Você é fraco e volta para sala anterior para procurar a chave
-</div>
-  <!--Ecolha 7 !-->
+
   <div class="passo" id="passo-7">
-  <p> Alex encontra uma câmara cheia de espelhos que refletem versões distorcidas dele mesmo. Aqui, ele pode tentar quebrar um espelho. </p>
+    <img src="Perdeu.jpeg"/>
+  <p> Alex foge com o tesouro, mas sua vida é assombrada pela maldição. </p>
   
-<button class="proxima" data-proximo="4"/> Quebrar o espelho.
+
+<button class="proxima" data-proximo="0"/> Reiniciar.
+</div>
+
+  <div class="passo" id="passo-8">
+    <img src="Ganhou.jpeg"/>
+  <p> Você sai em segurança do labirinto, e fica com uma história para contar para seus netos </p>
+  
+
  
-<button class="proxima" data-proximo="5"/> Seguir em frente.
+<button class="proxima" data-proximo="0"/> Começar de novo.
 </div>
   
+  <div class="passo" id="passo-9">
+  <p> Alex chega a um jardim subterrâneo, onde uma voz o chama. </p>
+  
+<button class="proxima" data-proximo="10"/> Quebrar o espelho.
+ 
+<button class="proxima" data-proximo="11"/> Seguir em frente.
+</div>
+
+  <div class="passo" id="passo-10">
+  <p> Alex encontra uma fonte mágica. </p>
+  
+<button class="proxima" data-proximo="9"/> Iginorar a fonte e voltar.
+ 
+<button class="proxima" data-proximo="12"/> Beber a água da fonte.
+</div>
+
+  <div class="passo" id="passo-11">
+  <p> Alex encontra uma planta rara que emite luz. </p>
+  
+<button class="proxima" data-proximo="13"/> Usá-la para iluminar o caminho.
+ 
+<button class="proxima" data-proximo="14"/> Usá-la para atrair os monstros do labirinto.
+</div>
+
+  <div class="passo" id="passo-12">
+    <img src="Perdeu.jpeg"/> 
+  <p> A água estava almaldiçoada fazendo com que você fique preso ali até a sua morte. </p>
+ 
+<button class="proxima" data-proximo="0"/> Reiniciar.
+</div>
+
+  <div class="passo" id="passo-13">
+  <p> Alex ilumina um caminho oculto que o leva a uma porta com uma alavanca ao lado </p>
+  
+<button class="proxima" data-proximo="15"/> Puxar a alavanca.
+</div>
+
+  <div class="passo" id="passo-14">
+  <p> Você usa a planta para atrair os monstros </p>
+  
+<button class="proxima" data-proximo="16"/> Enfrentar os monstros.
+    
+<button class="proxima" data-proximo="9" /> Tentar escapar.
+</div>
+
+  <div class="passo" id="passo-15">
+    <img src="Ganhou.jpeg" />
+  <p> Alex alcança o centro do labirinto, onde encontra uma civilização perdida, vivendo em segredo. Eles o guiam de volta ao começo do labirinto </p>
+  
+
+<button class="proxima" data-proximo="0" /> Reentrar no labirinto.
+</div>
+
+  <div class="passo" id="passo-16">
+    <img src="Perdeu.png"/>
+    <p>Você tenta enfrentar os monstros portem você é fraco e acaba sendo derrotado.</p>
+    
+    <button class="proxima" data-proximo="0" /> Recomeçar.
+</div>
+  
+    <div class="passo" id="passo-17">
+  <p> Alex encontra um abismo. </p>
+  
+<button class="proxima" data-proximo="18"/> Descer o abismo usando uma corda que estava no chão.
+ 
+<button class="proxima" data-proximo="0"/> Ignorar o abismo e voltar para a bifucação.
+</div>
+
+  <div class="passo" id="passo-18">
+  <p> Alex encontra uma rede de tuneis subterraneos. </p>
+  
+<button class="proxima" data-proximo="19"/> Seguir a esquerda.
+ 
+<button class="proxima" data-proximo="20"/> Seguir a direita.
+</div>
+
+  <div class="passo" id="passo-19">
+  <p> Alex encontra um artefato que pode controlar o labirinto. </p>
+  
+<button class="proxima" data-proximo="21"/> Esconde-lo.
+ 
+<button class="proxima" data-proximo="22"/> Usá-lo.
+</div>
+
+  <div class="passo" id="passo-20">
+  <p> Alex descobre um grupo de exploradores perdidos. </p>
+  
+<button class="proxima" data-proximo="23"/> Deixa-los para trás.
+ 
+<button class="proxima" data-proximo="24"/> Ajuda-los a escapar.
+</div>
+
+  <div class="passo" id="passo-21">
+    <img src="Ganhou.jpeg"/>
+  <p> Alex esconde o artefato e consegue sair do labirinto, mas sempre será tentado a retornar. </p>
+
+<button class="proxima" data-proximo="0"/> Reiniciar
+</div>
+
+  <div class="passo" id="passo-22">
+    <img src="Ganhou.jpeg"/>
+  <p> Alex usa o artefato para controlar o labirinto e se torna o novo guardião do lugar. </p>
+  
+ 
+<button class="proxima" data-proximo="0"/> Reiniciar.
+</div>
+
+  <div class="passo" id="passo-23">
+    <img src="Perdeu.jpeg"/>
+  <p> Você decide deixa-los para trás porém você ia precisar deles mais para frente por conta disso você morreu. </p>
+  
+
+ 
+<button class="proxima" data-proximo="0"/> Reiniciar.
+</div>
+
+  <div class="passo" id="passo-24">
+    <img src="Ganhou.jpeg"/>
+  <p> Graças a eles você consegue chegar ao tesouro do labirinto. </p>
+  
+
+ 
+<button class="proxima" data-proximo="0"/> Reiniciar.
+</div>
+
   </main>
   <footer>Página criada por <a href="https://github.com/JulhoAgosto" target="_blank">Julio Augusto</a></footer>
 <script src="sketch.js"></script>
